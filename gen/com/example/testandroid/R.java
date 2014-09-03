@@ -953,6 +953,10 @@ containing a value of this type.
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
          */
         public static final int activity_horizontal_margin=0x7f080015;
         public static final int activity_vertical_margin=0x7f080016;
@@ -1091,7 +1095,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05003c;
+        public static final int action_settings=0x7f05003f;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1102,6 +1106,9 @@ containing a value of this type.
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
+        public static final int ejex=0x7f05003c;
+        public static final int ejey=0x7f05003d;
+        public static final int ejez=0x7f05003e;
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
@@ -1192,17 +1199,22 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_assets_test=0x7f030018;
-        public static final int activity_external_storage_test=0x7f030019;
-        public static final int activity_life_cycle_test=0x7f03001a;
-        public static final int activity_touch=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int activity_accelerometer_test=0x7f030018;
+        public static final int activity_accelerometer_test2=0x7f030019;
+        public static final int activity_assets_test=0x7f03001a;
+        public static final int activity_external_storage_test=0x7f03001b;
+        public static final int activity_life_cycle_test=0x7f03001c;
+        public static final int activity_multi_touch_test=0x7f03001d;
+        public static final int activity_touch=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
-        public static final int assets_test=0x7f0c0000;
-        public static final int external_storage_test=0x7f0c0001;
-        public static final int life_cycle_test=0x7f0c0002;
-        public static final int touch=0x7f0c0003;
+        public static final int accelerometer_test2=0x7f0c0000;
+        public static final int assets_test=0x7f0c0001;
+        public static final int external_storage_test=0x7f0c0002;
+        public static final int life_cycle_test=0x7f0c0003;
+        public static final int multi_touch_test=0x7f0c0004;
+        public static final int touch=0x7f0c0005;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1248,9 +1260,11 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
+        public static final int title_activity_accelerometer_test2=0x7f0a0015;
         public static final int title_activity_assets_test=0x7f0a0012;
         public static final int title_activity_edgar=0x7f0a0011;
         public static final int title_activity_external_storage_test=0x7f0a0013;
+        public static final int title_activity_multi_touch_test=0x7f0a0014;
         public static final int title_activity_touch=0x7f0a0010;
     }
     public static final class style {
@@ -2630,7 +2644,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x01010438
+            0x0101012f, 0x01010130, 0x01010131, 0x01010435
         };
         /**
           <p>

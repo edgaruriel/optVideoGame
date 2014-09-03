@@ -8,5 +8,7 @@
     <string name="title_activity_edgar">EdgarActivity</string>
     <string name="title_activity_assets_test">AssetsTest</string>
     <string name="title_activity_external_storage_test">ExternalStorageTest</string>
+    <string name="title_activity_multi_touch_test">MultiTouchTest</string>
+    <string name="title_activity_accelerometer_test2">AccelerometerTest2</string>
 
 </resources>

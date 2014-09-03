@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -18,7 +18,7 @@
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".TouchActivity"
+            android:name=".AndroidBasicStarter"
             android:label="@string/title_activity_touch" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +33,19 @@
         <activity
             android:name=".ExternalStorageTest"
             android:label="@string/title_activity_external_storage_test" >
+        </activity>
+        <activity
+            android:name=".AccelerometerTest"
+            android:label="Test Acelerometro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MultiTouchTest"
+            android:label="@string/title_activity_multi_touch_test" >
+        </activity>
+        <activity
+            android:name=".AccelerometerTest2"
+            android:label="@string/title_activity_accelerometer_test2" >
         </activity>
     </application>
 

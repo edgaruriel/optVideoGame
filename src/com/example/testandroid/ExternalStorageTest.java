@@ -24,9 +24,14 @@ public class ExternalStorageTest extends ActionBarActivity {
 		}else{
 			File externalDir = Environment.getExternalStorageDirectory();
 			File textFile = new File(externalDir.getAbsolutePath() + File.separator + "text.txt");
-			
-			writeTextFile(textFile, "This is a test. Roget");
-			String text = readTextFile(textFile);
+			String text = "";
+			try {
+				writeTextFile(textFile, "This is a test. Roget");
+				text = readTextFile(textFile);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			textView.setText(text);
 			if(!textFile.delete()){
 				textView.setText("Couldn't temove temporary file");
@@ -36,6 +41,10 @@ public class ExternalStorageTest extends ActionBarActivity {
 
 	private void writeTextFile(File file, String text)throws IOException{
 		
+	}
+	
+	private String readTextFile(File file)throws IOException{
+		return "";
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

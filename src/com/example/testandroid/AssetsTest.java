@@ -31,7 +31,12 @@ public class AssetsTest extends ActionBarActivity {
 				//e.printStackTrace();
 			}finally {
 				if(inputStream != null){
-					inputStream.close
+					try {
+						inputStream.close();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 			}
 			

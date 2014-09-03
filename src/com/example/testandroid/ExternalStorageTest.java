@@ -1,6 +1,10 @@
 package com.example.testandroid;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import android.support.v7.app.ActionBarActivity;
@@ -39,13 +43,26 @@ public class ExternalStorageTest extends ActionBarActivity {
 		}
 	}
 
-	private void writeTextFile(File file, String text)throws IOException{
-		
-	}
-	
-	private String readTextFile(File file)throws IOException{
-		return "";
-	}
+	private void writeTextFile( File file, String text ) throws IOException {
+        if( !file.exists() ){
+            file.createNewFile();
+        }
+        BufferedWriter writer = new BufferedWriter( new FileWriter( file ));
+        writer.write( text );
+        writer.flush();
+        writer.close();
+    }
+
+    private String readTextFile( File file ) throws IOException{
+        BufferedReader reader = new BufferedReader( new FileReader( file ));
+        String text = null;
+        String line = null;
+        while ((line = reader.readLine()) != null) {
+            text += line;
+        }
+        return text;
+    }
+    
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

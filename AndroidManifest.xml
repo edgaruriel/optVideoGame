@@ -7,7 +7,9 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -47,6 +49,14 @@
         <activity
             android:name=".AccelerometerTest2"
             android:label="@string/title_activity_accelerometer_test2" >
+        </activity>
+        <activity
+            android:name=".BitmapTest"
+            android:label="@string/title_activity_bitmap_test" >
+        </activity>
+        <activity
+            android:name=".SurfaceViewTest"
+            android:label="@string/title_activity_surface_view_test" >
         </activity>
     </application>
 

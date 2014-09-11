@@ -327,6 +327,7 @@ int layout abc_simple_decor 0x7f030017
 int layout activity_accelerometer_test 0x7f030018
 int layout activity_accelerometer_test2 0x7f030019
 int layout activity_assets_test 0x7f03001a
+<<<<<<< HEAD
 int layout activity_external_storage_test 0x7f03001b
 int layout activity_life_cycle_test 0x7f03001c
 int layout activity_multi_touch_test 0x7f03001d
@@ -342,6 +343,25 @@ int menu multi_touch_test 0x7f0c0004
 int menu render_view_test 0x7f0c0005
 int menu shape_test 0x7f0c0006
 int menu touch 0x7f0c0007
+=======
+int layout activity_bitmap_test 0x7f03001b
+int layout activity_external_storage_test 0x7f03001c
+int layout activity_life_cycle_test 0x7f03001d
+int layout activity_main 0x7f03001e
+int layout activity_multi_touch_test 0x7f03001f
+int layout activity_surface_view_test 0x7f030020
+int layout activity_touch 0x7f030021
+int layout support_simple_spinner_dropdown_item 0x7f030022
+int menu accelerometer_test2 0x7f0c0000
+int menu assets_test 0x7f0c0001
+int menu bitmap_test 0x7f0c0002
+int menu external_storage_test 0x7f0c0003
+int menu life_cycle_test 0x7f0c0004
+int menu main 0x7f0c0005
+int menu multi_touch_test 0x7f0c0006
+int menu surface_view_test 0x7f0c0007
+int menu touch 0x7f0c0008
+>>>>>>> 9973eaed55e54d27d4279563fe1c7d5c472d4a9a
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
 int string abc_action_menu_overflow_description 0x7f0a0003
@@ -360,11 +380,14 @@ int string app_name 0x7f0a000d
 int string hello_world 0x7f0a000e
 int string title_activity_accelerometer_test2 0x7f0a0015
 int string title_activity_assets_test 0x7f0a0012
+int string title_activity_bitmap_test 0x7f0a0017
 int string title_activity_edgar 0x7f0a0011
 int string title_activity_external_storage_test 0x7f0a0013
+int string title_activity_main 0x7f0a0016
 int string title_activity_multi_touch_test 0x7f0a0014
 int string title_activity_render_view_test 0x7f0a0016
 int string title_activity_shape_test 0x7f0a0017
+int string title_activity_surface_view_test 0x7f0a0018
 int string title_activity_touch 0x7f0a0010
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c

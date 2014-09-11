@@ -1209,6 +1209,10 @@ containing a value of this type.
         public static final int activity_shape_test=0x7f03001f;
         public static final int activity_touch=0x7f030020;
         public static final int support_simple_spinner_dropdown_item=0x7f030021;
+        public static final int activity_bitmap_test=0x7f03001b;
+        public static final int activity_main=0x7f03001e;
+        public static final int activity_surface_view_test=0x7f030020;
+  
     }
     public static final class menu {
         public static final int accelerometer_test2=0x7f0c0000;
@@ -1219,6 +1223,10 @@ containing a value of this type.
         public static final int render_view_test=0x7f0c0005;
         public static final int shape_test=0x7f0c0006;
         public static final int touch=0x7f0c0007;
+        public static final int bitmap_test=0x7f0c0002;
+        public static final int external_storage_test=0x7f0c0003;
+        public static final int main=0x7f0c0005;
+        public static final int surface_view_test=0x7f0c0007;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1266,11 +1274,14 @@ containing a value of this type.
         public static final int hello_world=0x7f0a000e;
         public static final int title_activity_accelerometer_test2=0x7f0a0015;
         public static final int title_activity_assets_test=0x7f0a0012;
+        public static final int title_activity_bitmap_test=0x7f0a0017;
         public static final int title_activity_edgar=0x7f0a0011;
         public static final int title_activity_external_storage_test=0x7f0a0013;
+        public static final int title_activity_main=0x7f0a0016;
         public static final int title_activity_multi_touch_test=0x7f0a0014;
         public static final int title_activity_render_view_test=0x7f0a0016;
         public static final int title_activity_shape_test=0x7f0a0017;
+        public static final int title_activity_surface_view_test=0x7f0a0018;
         public static final int title_activity_touch=0x7f0a0010;
     }
     public static final class style {

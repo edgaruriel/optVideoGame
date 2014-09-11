@@ -10,5 +10,7 @@
     <string name="title_activity_external_storage_test">ExternalStorageTest</string>
     <string name="title_activity_multi_touch_test">MultiTouchTest</string>
     <string name="title_activity_accelerometer_test2">AccelerometerTest2</string>
+    <string name="title_activity_render_view_test">RenderViewTest</string>
+    <string name="title_activity_shape_test">ShapeTest</string>
 
 </resources>

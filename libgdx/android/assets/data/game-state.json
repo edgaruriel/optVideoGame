@@ -1,0 +1,17 @@
+{
+	points:0,
+	xp:0,
+	level:1,
+	levels:[
+		{name:"flores", locked:false, minLevel:1, maxLevel:10, minPoints:50, maxPoints:200},	
+		{name:"torres", locked:tue, minLevel:5, maxLevel:15, minPoints:150, maxPoints:400},	
+		{name:"mangos", locked:tue, minLevel:12, maxLevel:20, minPoints:500, maxPoints:800},	
+		{name:"venado", locked:tue, minLevel:15, maxLevel:21, minPoints:500, maxPoints:700},	
+		
+		{name:"pelota", locked:tue, minLevel:20, maxLevel:29, minPoints:800, maxPoints:1000},	
+		
+
+	]
+
+}
+

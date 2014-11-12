@@ -1,0 +1,75 @@
+
+uiskin.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_main
+  rotate: false
+  xy: 1, 746
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+btnJugar
+  rotate: false
+  xy: 1, 586
+  size: 500, 158
+  orig: 500, 158
+  offset: 0, 0
+  index: -1
+btnJugarPressed
+  rotate: false
+  xy: 1, 426
+  size: 500, 158
+  orig: 500, 158
+  offset: 0, 0
+  index: -1
+btnOpciones
+  rotate: false
+  xy: 1, 266
+  size: 500, 158
+  orig: 500, 158
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1, 131
+  size: 400, 133
+  orig: 400, 150
+  offset: 0, 10
+  index: -1
+bntPausa
+  rotate: false
+  xy: 723, 1868
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+bntPausaPressed
+  rotate: false
+  xy: 503, 586
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 1, 1
+  size: 113, 128
+  orig: 113, 128
+  offset: 0, 0
+  index: -1
+boton_pressed
+  rotate: false
+  xy: 723, 1767
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+boton_normal
+  rotate: false
+  xy: 883, 1936
+  size: 100, 90
+  orig: 100, 99
+  offset: 0, 2
+  index: -1

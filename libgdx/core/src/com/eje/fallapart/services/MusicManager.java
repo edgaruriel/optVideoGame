@@ -17,9 +17,6 @@ public class MusicManager {
 	}
 	
 	public void play(MatyasMusic music ){
-		if (!enabled) return;
-		
-		if (musicBeingPlayed==music) return;
 		
 		stop();
 		

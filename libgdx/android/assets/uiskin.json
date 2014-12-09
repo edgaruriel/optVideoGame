@@ -16,4 +16,10 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
     btnPausa: { down: bntPausaPressed, up: bntPausa}
 },
 
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: { font: default-font, fontColor: white },
+},
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+        default: { checkboxOn: bntSonidoYes, checkboxOff: bntSonidoNo, font: button-font, fontColor: white }
+}
 }

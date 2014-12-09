@@ -5,71 +5,85 @@ filter: Nearest,Nearest
 repeat: none
 bg_main
   rotate: false
-  xy: 1, 746
+  xy: 0, 752
   size: 720, 1280
   orig: 720, 1280
   offset: 0, 0
   index: -1
 btnJugar
   rotate: false
-  xy: 1, 586
+  xy: 0, 594
   size: 500, 158
   orig: 500, 158
   offset: 0, 0
   index: -1
 btnJugarPressed
   rotate: false
-  xy: 1, 426
+  xy: 0, 436
   size: 500, 158
   orig: 500, 158
   offset: 0, 0
   index: -1
 btnOpciones
   rotate: false
-  xy: 1, 266
+  xy: 0, 278
   size: 500, 158
   orig: 500, 158
   offset: 0, 0
   index: -1
 logo
   rotate: false
-  xy: 1, 131
-  size: 400, 133
+  xy: 0, 128
+  size: 400, 150
   orig: 400, 150
-  offset: 0, 10
+  offset: 0, 0
   index: -1
 bntPausa
   rotate: false
-  xy: 723, 1868
+  xy: 720, 1874
   size: 158, 158
   orig: 158, 158
   offset: 0, 0
   index: -1
 bntPausaPressed
   rotate: false
-  xy: 503, 586
+  xy: 500, 594
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+bntSonidoNo
+  rotate: false
+  xy: 720, 1716
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+bntSonidoYes
+  rotate: false
+  xy: 500, 436
   size: 158, 158
   orig: 158, 158
   offset: 0, 0
   index: -1
 player
   rotate: false
-  xy: 1, 1
+  xy: 0, 0
   size: 113, 128
   orig: 113, 128
   offset: 0, 0
   index: -1
-boton_pressed
+boton_normal
   rotate: false
-  xy: 723, 1767
+  xy: 400, 179
   size: 100, 99
   orig: 100, 99
   offset: 0, 0
   index: -1
-boton_normal
+boton_pressed
   rotate: false
-  xy: 883, 1936
-  size: 100, 90
+  xy: 878, 1933
+  size: 100, 99
   orig: 100, 99
-  offset: 0, 2
+  offset: 0, 0
   index: -1

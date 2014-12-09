@@ -266,7 +266,8 @@ public class GameScreen extends AbstractScreen{
 		}
 		
 		if(cl.isPlayerDead()){
-			game.getPreferencesManager().setScore((int)score);
+			if((int)score > game.getPreferencesManager().getScore())
+				game.getPreferencesManager().setScore((int)score);
 			game.setScreen(new IntroScreen(game));
 		}
 		
